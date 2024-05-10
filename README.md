@@ -51,6 +51,22 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
+## Installation
+
+We just need to start the Vite development server to automatically recompile our JS, CSS and refresh the browser when we make changes to our Blade templates:
+
+``php artisan migrate
+  php artisan tinker
+  >>>User::factory(100)->create()
+
+  et
+  ``npm run dev
+
+  et 
+
+  ``php artisan serve
+  
+
 ## Code of Conduct
 
 In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
