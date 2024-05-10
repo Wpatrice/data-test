@@ -53,13 +53,16 @@ Thank you for considering contributing to the Laravel framework! The contributio
 
 ## Installation
 
-We just need to start the Vite development server to automatically recompile our JS, CSS and refresh the browser when we make changes to our Blade templates:
+Procéder comme suit :
 
 ``php artisan migrate``
   ``php artisan tinker``
   ``>>>User::factory(100)->create()``
 
-  et
+
+  We just need to start the Vite development server to automatically recompile our JS, CSS and refresh the browser when we make changes to our Blade templates:
+
+
   ``npm run dev``
 
   et 
