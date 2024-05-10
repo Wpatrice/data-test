@@ -57,7 +57,7 @@ We just need to start the Vite development server to automatically recompile our
 
 ``php artisan migrate``
   ``php artisan tinker``
-  >>>User::factory(100)->create()
+  ``>>>User::factory(100)->create()``
 
   et
   ``npm run dev``
